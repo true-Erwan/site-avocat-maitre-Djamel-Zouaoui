@@ -57,17 +57,45 @@ export default function Home() {
 
       {/* Intro Section */}
       <section className="py-24 bg-white">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-4xl mx-auto px-4">
           <FadeIn>
-            <h2 className="font-serif text-3xl md:text-5xl text-primary font-bold mb-8">
-              Excellence & Détermination
+            <h2 className="font-serif text-3xl md:text-5xl text-primary font-bold mb-8 text-center">
+              Maître Djamel Zouaoui
             </h2>
-            <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Inscrit au Barreau de Paris, le Cabinet de Maître Djamel Zouaoui a forgé son expertise exclusivement sur le droit de l'immobilier. 
-              Que vous soyez investisseur, propriétaire bailleur, copropriétaire ou chef d'entreprise engagé dans un bail commercial, 
-              le cabinet déploie des stratégies juridiques sur mesure pour protéger votre patrimoine et défendre vos intérêts avec pugnacité devant les juridictions parisiennes et nationales.
-            </p>
+            <div className="w-24 h-1 bg-accent mx-auto mb-10"></div>
+            
+            <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
+              <p className="text-center font-semibold text-xl text-primary">
+                Prestation de serment en 1996 • 30 ans d'expérience
+                <br />
+                Exercice au sein du Barreau de Paris
+              </p>
+
+              <div className="bg-gray-50/80 p-8 border-l-4 border-accent shadow-sm">
+                <h3 className="font-serif text-2xl text-primary font-bold mb-4">Formation d'Excellence</h3>
+                <p className="mb-4 font-medium">
+                  Études au sein de la prestigieuse Université de Paris 2 - Assas avec mentions pour chacune des années. Titulaire de parcours exigeants :
+                </p>
+                <ul className="list-disc pl-5 space-y-3">
+                  <li><strong>Maîtrise (Master)</strong> en droit des affaires et fiscalité avec mention</li>
+                  <li><strong>Maîtrise (Master)</strong> en droit privé avec mention</li>
+                  <li><strong>Certificat de sciences criminelles</strong> de l'Institut de criminologie et de droit pénal de Paris</li>
+                  <li><strong>Certificat de sciences criminologiques</strong> de l'Institut de criminologie et de droit pénal</li>
+                  <li><strong>Diplôme d'études supérieures spécialisées en droit immobilier</strong> avec mention avocat mandataire en transactions immobilières</li>
+                </ul>
+              </div>
+
+              <div className="bg-white">
+                <p className="mb-4">
+                  Inscrit au Barreau de Paris, le Cabinet a forgé son expertise sur le droit de l'immobilier. 
+                  Nous accompagnons une <strong>clientèle de particuliers et de professionnels</strong> (syndics de copropriétés, promoteurs, marchands de biens...).
+                </p>
+                <p>
+                  Que vous soyez investisseur, propriétaire bailleur, copropriétaire ou chef d'entreprise engagé dans un bail commercial, 
+                  le cabinet déploie des stratégies juridiques sur mesure pour protéger votre patrimoine et défendre vos intérêts avec pugnacité devant les juridictions parisiennes et nationales.
+                </p>
+              </div>
+            </div>
           </FadeIn>
         </div>
       </section>

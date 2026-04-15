@@ -2,6 +2,7 @@ import { PageHero } from "@/components/PageHero";
 import { FadeIn } from "@/components/FadeIn";
 import { Metadata } from "next";
 import { MapPin, Phone, Mail } from "lucide-react";
+import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contactez votre Avocat Immobilier à Paris | Maître Djamel Zouaoui",
@@ -30,8 +31,10 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-xl text-primary">Adresse à Paris</h3>
                     <p className="text-gray-600 mt-2">
-                      61 boulevard de Sébastopol<br />
-                      75001 Paris, France
+                      <a href="https://maps.google.com/?q=61+Boulevard+de+Sébastopol,+75001+Paris,+France" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors block">
+                        61 boulevard de Sébastopol<br />
+                        75001 Paris, France
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -59,38 +62,10 @@ export default function Contact() {
               </div>
             </FadeIn>
 
-            {/* Form Placeholder */}
+            {/* Contact Form */}
             <FadeIn delay={0.4} className="bg-primary p-10 text-white shadow-xl">
               <h2 className="text-3xl font-serif mb-8">Demande de consultation</h2>
-              <form className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-300">Nom & Prénom</label>
-                  <input type="text" id="name" className="mt-1 block w-full bg-white/10 border-transparent focus:border-accent focus:ring-0 text-white px-4 py-3" placeholder="Votre nom" />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-300">Email</label>
-                  <input type="email" id="email" className="mt-1 block w-full bg-white/10 border-transparent focus:border-accent focus:ring-0 text-white px-4 py-3" placeholder="vous@exemple.com" />
-                </div>
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-300">Objet de votre demande</label>
-                  <select id="subject" className="mt-1 block w-full bg-white/10 border-transparent focus:border-accent focus:ring-0 text-white px-4 py-3 [&>option]:text-primary">
-                    <option>Enchères immobilières</option>
-                    <option>Copropriété</option>
-                    <option>Baux commerciaux</option>
-                    <option>Litiges locatifs & Expulsions</option>
-                    <option>Transaction immobilière</option>
-                    <option>Vices cachés</option>
-                    <option>Autre</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-300">Votre message</label>
-                  <textarea id="message" rows={4} className="mt-1 block w-full bg-white/10 border-transparent focus:border-accent focus:ring-0 text-white px-4 py-3" placeholder="Décrivez brièvement votre situation..."></textarea>
-                </div>
-                <button type="button" className="w-full bg-accent text-primary font-bold py-4 hover:bg-white transition-colors duration-300">
-                  Envoyer ma demande
-                </button>
-              </form>
+              <ContactForm />
             </FadeIn>
 
           </div>

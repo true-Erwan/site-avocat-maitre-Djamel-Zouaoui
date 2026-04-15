@@ -40,7 +40,9 @@ export default function Footer() {
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-3">
               <MapPin className="text-accent h-5 w-5 flex-shrink-0" />
-              <span>61 boulevard de Sébastopol<br />75001 Paris</span>
+              <a href="https://maps.google.com/?q=61+Boulevard+de+Sébastopol,+75001+Paris,+France" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                61 boulevard de Sébastopol<br />75001 Paris
+              </a>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="text-accent h-5 w-5 flex-shrink-0" />
