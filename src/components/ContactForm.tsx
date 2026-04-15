@@ -79,6 +79,7 @@ export function ContactForm() {
       <div>
         <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-1">Objet de votre demande</label>
         <select id="subject" name="subject" required className="block w-full bg-white/10 border-transparent focus:border-accent focus:ring-0 text-white px-4 py-3 [&>option]:text-primary">
+          <option>Saisies immobilières</option>
           <option>Enchères immobilières</option>
           <option>Copropriété</option>
           <option>Baux commerciaux</option>
@@ -92,9 +93,6 @@ export function ContactForm() {
         <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">Votre message</label>
         <textarea id="message" name="message" required rows={4} className="block w-full bg-white/10 border-transparent focus:border-accent focus:ring-0 text-white px-4 py-3" placeholder="Décrivez brièvement votre situation..."></textarea>
       </div>
-      
-      {/* Fallback subject for the email */}
-      <input type="hidden" name="subject" value="Nouveau message depuis le site Avocat" />
 
       <button 
         type="submit" 
