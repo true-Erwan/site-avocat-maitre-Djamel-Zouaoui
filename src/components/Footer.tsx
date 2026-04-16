@@ -29,7 +29,7 @@ export default function Footer() {
             <li><Link href="/enchere-immobiliere-paris" className="hover:text-accent transition-colors">Enchères Immobilières</Link></li>
             <li><Link href="/saisies-immobilieres-paris" className="hover:text-accent transition-colors">Saisies Immobilières</Link></li>
             <li><Link href="/droit-copropriete-paris" className="hover:text-accent transition-colors">Droit de la Copropriété</Link></li>
-            <li><Link href="/baux-commerciaux-paris" className="hover:text-accent transition-colors">Baux Commerciaux</Link></li>
+            <li><Link href="/baux-commerciaux-paris" className="hover:text-accent transition-colors">Baux</Link></li>
             <li><Link href="/litige-locatif-expulsion-paris" className="hover:text-accent transition-colors">Litiges Locatifs & Expulsions</Link></li>
           </ul>
         </div>

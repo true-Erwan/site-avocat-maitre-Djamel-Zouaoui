@@ -8,7 +8,7 @@ export default function Home() {
     { title: "Enchères Immobilières", desc: "Représentation et portage d'enchères au Tribunal Judiciaire de Paris.", icon: <Gavel className="w-8 h-8 text-accent" />, href: "/enchere-immobiliere-paris" },
     { title: "Saisies Immobilières", desc: "Défense des propriétaires saisis, délais de grâce et audience d'orientation.", icon: <Shield className="w-8 h-8 text-accent" />, href: "/saisies-immobilieres-paris" },
     { title: "Copropriété", desc: "Litiges, AG, syndics et recouvrement de charges.", icon: <Building className="w-8 h-8 text-accent" />, href: "/droit-copropriete-paris" },
-    { title: "Baux Commerciaux", desc: "Rédaction, renouvellement et procédures d'éviction.", icon: <FileText className="w-8 h-8 text-accent" />, href: "/baux-commerciaux-paris" },
+    { title: "Baux", desc: "Baux commerciaux, professionnels et civils. Rédaction et contentieux.", icon: <FileText className="w-8 h-8 text-accent" />, href: "/baux-commerciaux-paris" },
     { title: "Litiges Locatifs", desc: "Expulsions, recouvrement de loyers impayés.", icon: <AlertTriangle className="w-8 h-8 text-accent" />, href: "/litige-locatif-expulsion-paris" },
     { title: "Transactions", desc: "Sécurisation de vos achats et ventes immobilières.", icon: <Key className="w-8 h-8 text-accent" />, href: "/transaction-immobiliere-paris" },
     { title: "Vices Cachés", desc: "Malfaçons et droit de la construction.", icon: <Scale className="w-8 h-8 text-accent" />, href: "/vice-cache-construction-paris" },

@@ -82,9 +82,9 @@ export function ContactForm() {
           <option>Saisies immobilières</option>
           <option>Enchères immobilières</option>
           <option>Copropriété</option>
-          <option>Baux commerciaux</option>
+          <option>Baux</option>
           <option>Litiges locatifs & Expulsions</option>
-          <option>Transaction immobilière</option>
+          <option>Transactions immobilières</option>
           <option>Vices cachés</option>
           <option>Autre</option>
         </select>

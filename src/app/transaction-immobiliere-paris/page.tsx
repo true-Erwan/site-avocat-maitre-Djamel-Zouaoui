@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Avocat Transaction et Vente Immobilière Paris | Maître Djamel Zouaoui",
+  title: "Avocat Transactions et Ventes Immobilières Paris | Maître Djamel Zouaoui",
   description: "Sécurisez vos transactions immobilières à Paris : promesse de vente, compromis, conditions suspensives, et contentieux de la vente immobilière.",
 };
 
@@ -11,7 +11,7 @@ export default function Transaction() {
   return (
     <>
       <PageHero 
-        title="Transaction & Vente Immobilière" 
+        title="Transactions & Ventes Immobilières" 
         subtitle="L'assistance juridique indispensable pour la vente ou l'acquisition de vos biens."
       />
       <section className="py-24 bg-white">

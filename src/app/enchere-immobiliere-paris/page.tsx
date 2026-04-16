@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Avocat Enchère Immobilière Paris | Maître Djamel Zouaoui",
+  title: "Avocat Enchères Immobilières Paris | Maître Djamel Zouaoui",
   description: "Avocat au Barreau de Paris pour enchères immobilières et saisies immobilières. Représentation aux audiences des ventes par adjudication au Tribunal Judiciaire.",
 };
 
@@ -11,7 +11,7 @@ export default function EnchereImmobiliere() {
   return (
     <>
       <PageHero 
-        title="Avocat Enchère Immobilière à Paris" 
+        title="Avocat Enchères Immobilières à Paris" 
         subtitle="Représentation exclusive et sécurisation de vos enchères judiciaires."
       />
       <section className="py-24 bg-white">

@@ -14,7 +14,7 @@ export default function Navbar() {
     { name: "Enchères Immobilières", href: "/enchere-immobiliere-paris" },
     { name: "Saisies Immobilières", href: "/saisies-immobilieres-paris" },
     { name: "Copropriété", href: "/droit-copropriete-paris" },
-    { name: "Baux Commerciaux", href: "/baux-commerciaux-paris" },
+    { name: "Baux", href: "/baux-commerciaux-paris" },
     { name: "Litiges Locatifs", href: "/litige-locatif-expulsion-paris" },
     { name: "Transactions", href: "/transaction-immobiliere-paris" },
     { name: "Vices Cachés", href: "/vice-cache-construction-paris" },
