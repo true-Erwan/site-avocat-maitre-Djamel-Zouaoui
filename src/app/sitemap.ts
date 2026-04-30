@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Remplacez par votre vrai nom de domaine une fois en production
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.avocat-djamel-zouaoui.fr';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.djamel-zouaoui-avocat.fr';
 
   return [
     {
